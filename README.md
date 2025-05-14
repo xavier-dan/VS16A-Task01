@@ -14,6 +14,7 @@ Clone o projeto e instale as dependências:
 
 ```bash
 git clone https://github.com/xavier-dan/VS16A-Task01.git
+cd VS16A-Task01
 npm install
 npm run dev
 
