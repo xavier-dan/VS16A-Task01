@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap; 
+    justify-content: right;
+    padding: 1em; 
+}
+
+.link {
+    font-size: 1em;
+    transition: color 0.3s;
+
+    &:hover {
+        color: #ffe8cc;
+        text-decoration: underline;
+    }
+}

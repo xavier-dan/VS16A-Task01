@@ -1,0 +1,33 @@
+.cartaoDemo {
+    background-color: #F9F9F9;
+    border: 1px solid #DDd;
+    padding: 1em;
+    border-radius: 0.7em;
+    width: 90%;
+    max-width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+}
+
+.cartaoDemo h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+.cartaoDemo img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+
+.cartaoDemo p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
