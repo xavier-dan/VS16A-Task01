@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '@/components/header/Header';
 import Footer from '@/components/footer/Footer';
-import Demo from '@/components/demo/Demo';
+import Feed from '@/components/feed/Feed';
 import style from './start.module.scss';
 
 export default function Start() {
@@ -9,8 +9,8 @@ export default function Start() {
         <>
             <Header />
             <main className={style.container}>
-                <h2>SAIBA MAIS</h2>
-                <Demo />
+                <h2>POSTS RECENTES</h2>
+                <Feed />
             </main>
             <Footer />
         </>

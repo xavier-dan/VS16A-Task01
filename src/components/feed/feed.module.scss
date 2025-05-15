@@ -1,0 +1,56 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2em;
+    padding: 2em;
+    background-color: #f7f4ef;
+}
+
+.container>div {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.container p {
+    padding: 1rem;
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.5;
+    background-color: #fafafa;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    padding: 0 1rem 1rem;
+    background-color: #fafafa;
+
+    button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #333;
+        font-size: 1.2rem;
+        transition: transform 0.2s ease;
+
+        &:hover {
+            transform: scale(1.2);
+            color: #000;
+        }
+
+        &:active {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.titulo {
+    font-size: 2em;
+    text-align: center;
+    margin: 0.7em 0;
+}

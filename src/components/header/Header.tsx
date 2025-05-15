@@ -6,11 +6,9 @@ export default function Header() {
     return (
         <>
             <header className={styles.header}>
-                <div>
-                    <h1>Mooi</h1>
-                </div>
-                <NavBar />
+                    <h1>MOOI</h1>
             </header>
+            <NavBar />
         </>
     )
 }

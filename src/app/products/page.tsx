@@ -9,7 +9,7 @@ export default function Start() {
         <>
             <Header />
             <main className={style.container}>
-                <h2>Produtos</h2>
+                <h2>PRODUTOS</h2>
                 <Demo />
             </main>
             <Footer />

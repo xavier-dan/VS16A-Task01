@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from '@/components/header/Header';
 import Footer from '@/components/footer/Footer';
-import Demo from '@/components/demo/Demo';
+import FormContato from '@/components/formcontato/FormContato';
+import InfoContato from '@/components/infocontato/InfoContato';
 import style from './start.module.scss';
 
 export default function Start() {
@@ -9,8 +10,10 @@ export default function Start() {
         <>
             <Header />
             <main className={style.container}>
-                <h2>SAIBA MAIS</h2>
-                <Demo />
+                <div className={style.divContainer}>
+                    <InfoContato />
+                    <FormContato />
+                </div>
             </main>
             <Footer />
         </>
