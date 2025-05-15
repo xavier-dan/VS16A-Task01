@@ -13,7 +13,7 @@ export default function React() {
                 <div>
                     <Image
                         src={Photo1}
-                        alt="Descrição da imagem sobre quem somos"
+                        alt="Imagem mulher segurando vela natural MOOI"
                         layout="responsive"
                         quality={90}
                         priority={true}
@@ -32,7 +32,7 @@ export default function React() {
                 <div>
                     <Image
                         src={Photo2}
-                        alt="Descrição da imagem sobre quem somos"
+                        alt="Imagem mulher segurando fragrância MOOI"
                         layout="responsive"
                         quality={90}
                         priority={true}
@@ -51,7 +51,7 @@ export default function React() {
                 <div>
                     <Image
                         src={Photo3}
-                        alt="Descrição da imagem sobre quem somos"
+                        alt="Imagem homem segurando vaso MOOI"
                         layout="responsive"
                         quality={90}
                         priority={true}
