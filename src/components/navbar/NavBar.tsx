@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './navbar.module.scss';
 import TextMenu from "../textmenu/TextMenu";
+import Login from '../login/Login';
 import {
     FaHome,
     FaLeaf,
@@ -28,6 +29,7 @@ export default function NavBar() {
                     <TextMenu texto="Feed" href="/feed" icon={<FaBookOpen />} />
                     <TextMenu texto="Contato" href="/contact" icon={<FaEnvelope />} />
                     <TextMenu texto="Saiba Mais" href="/more" icon={<FaInfo />} />
+                    <Login />
                 </div>
             </nav>
         </>
